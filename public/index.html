@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>WebRtc Test</h1>
+    <div id="selectRoom">
+        <label>Type room name</label>
+        <input id="roomNumber" type="text"/>
+        <Button id="goRoom"> Go</Button>
+    </div>
+    <div id="consultingRoom" style="display: none;">
+        <video id="localvideo" autoplay></video>
+        <video id="remoteVideo" autoplay></video>
+    </div>
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.3/socket.io.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
